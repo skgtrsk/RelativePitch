@@ -11,7 +11,7 @@ import SwiftUI
 struct RelativePitchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(answerButtonColor: .gray)
         }
     }
 }
